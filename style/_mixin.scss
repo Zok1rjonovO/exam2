@@ -1,0 +1,45 @@
+@mixin buttonmix($p, $w, $bg, $c) {
+    padding: $p;
+    width: $w;
+    background-color: $bg;
+    color: $c;
+}
+
+.hero__btn{
+    @include buttonmix(19px 32px , 180px, #FCB72B, #fff);
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 85px;
+    text-align: center;
+    border: $btn-hover;
+    font-family: 'Space Mono';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    &:hover{
+        border: $btn-hover;
+        background-color: transparent;
+        color: #FCB72B;
+    }
+}
+
+.good__btn{
+    @include buttonmix(19px 32px , 180px, #FCB72B, #fff);
+    cursor: pointer;
+    margin-top: 40px;
+    text-align: center;
+    border: $btn-hover;
+    font-family: 'Space Mono';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    &:hover{
+        border: $btn-hover;
+        background-color: transparent;
+        color: #FCB72B;
+    }
+}
