@@ -85,3 +85,22 @@
         }
     }
 }
+
+@media screen and (max-width:480px) and (min-width:320px){
+    .guid{
+        &__wrapper{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+        }
+        &__card{
+            display: flex;
+            align-items: center;
+            text-align: center;
+        }
+        &__line{
+            display: none;
+        }
+    }
+}
