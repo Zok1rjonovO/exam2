@@ -42,7 +42,12 @@
             gap: 40px
         }
         &__text{
-            width: 470px;
+            width: 311px;
+        }
+        &__link{
+            img{
+                width: 110px;
+            }
         }
     }
 }

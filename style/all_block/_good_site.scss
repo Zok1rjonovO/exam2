@@ -101,6 +101,21 @@
             align-items: center;
             text-align: center;
         }
+        &__text{
+            h1{
+                width: 311px;
+                font-size: 32px;
+                line-height: 32px;
+                text-align: center;
+                letter-spacing: -1.42857px;
+            }
+            p{
+                margin-top: 24px;
+                width: 311px;
+                font-size: 15px;
+                line-height: 25px;
+            }
+        }
         .good__img{
             img{
                 width: 300px !important;

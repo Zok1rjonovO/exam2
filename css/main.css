@@ -141,7 +141,7 @@ html {
     flex-direction: row-reverse;
   }
   .header__logo h1 {
-    padding: 0 0 0 150px;
+    padding: 0 0 0 100px;
   }
   .header__btn1 {
     width: 50px;
@@ -361,6 +361,12 @@ html {
   .guid__line {
     display: none;
   }
+  .guid__text h1 {
+    width: 311px;
+  }
+  .guid__text p {
+    width: 311px;
+  }
 }
 .good {
   margin-top: 266px;
@@ -454,6 +460,19 @@ html {
     align-items: center;
     text-align: center;
   }
+  .good__text h1 {
+    width: 311px;
+    font-size: 32px;
+    line-height: 32px;
+    text-align: center;
+    letter-spacing: -1.42857px;
+  }
+  .good__text p {
+    margin-top: 24px;
+    width: 311px;
+    font-size: 15px;
+    line-height: 25px;
+  }
   .good .good__img img {
     width: 300px !important;
   }
@@ -510,7 +529,10 @@ html {
     gap: 40px;
   }
   .prefooter__text {
-    width: 470px;
+    width: 311px;
+  }
+  .prefooter__link img {
+    width: 110px;
   }
 }
 .footer {
