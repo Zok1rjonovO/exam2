@@ -46,13 +46,11 @@
     .img_bitma{
         margin-left: 125px;
     }
-    &__circel{
+    &__svg{
         position: absolute;
-        left: 1100px;
-        width: 445px;
-        height: 445px;
-        border-radius: 50% 0 0 50%;
-        background-color: #E5ECF4;
+        display: flex;
+        flex-direction: row-reverse;
+        left: 10px;
     }
 }
 
@@ -102,8 +100,10 @@
             flex-direction: column-reverse;
             align-items: center;
             text-align: center;
-            p{
-                width: 311px;
+        }
+        .good__img{
+            img{
+                width: 300px !important;
             }
         }
         &__box:nth-child(2){
